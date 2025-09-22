@@ -7,14 +7,14 @@ This repo acquires, integrates, augments, and stores Australian electricity/emis
 - Geocoding augmentation via OpenStreetMap Nominatim
 Outputs are loaded into a DuckDB database.
 
-# Quick start:
-# 1) create venv & install exact deps
-python -m venv .venv
-# Windows: .\.venv\Scripts\activate   |  macOS/Linux: source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+## Quick start:
+### 1) create venv & install exact deps
+> python -m venv .venv
+> Windows: .\.venv\Scripts\activate   |  macOS/Linux: source .venv/bin/activate
+> python -m pip install --upgrade pip
+> pip install -r requirements.txt
 
-# 2) run the full pipeline (extract -> clean -> augment -> transform -> load)
+### 2) run the full pipeline (extract -> clean -> augment -> transform -> load)
 run Assignment_1.ipynb
 
 # Notes:
