@@ -9,17 +9,17 @@ Outputs are loaded into a DuckDB database.
 
 ## Quick start:
 ### 1) create venv & install exact deps
-'''
+```
 python -m venv .venv<br/>
 Windows: .\.venv\Scripts\activate   |  macOS/Linux: source .venv/bin/activate<br/>
 python -m pip install --upgrade pip<br/>
 pip install -r requirements.txt
-...
+```
 
 ### 2) run the full pipeline (extract -> clean -> augment -> transform -> load)
-'''
+```
 run Assignment_1.ipynb
-'''
+```
 
 ## Notes:
 1. Geocoder fallback is flagged in geo_resolution (exact -> approximated by postcode -> approximated by state).
