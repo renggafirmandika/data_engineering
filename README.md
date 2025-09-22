@@ -6,7 +6,7 @@ This repo acquires, integrates, augments, and stores Australian electricity/emis
 - [ABS](https://www.abs.gov.au/methodologies/data-region-methodology/2011-24#data-downloads) (population & industry by state)
 - Geocoding augmentation via OpenStreetMap Nominatim
 Outputs are loaded into a DuckDB database.
----
+
 ## Quick start:
 ### 1) create venv & install exact deps
 '''
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 '''
 run Assignment_1.ipynb
 '''
----
+
 ## Notes:
 1. Geocoder fallback is flagged in geo_resolution (exact -> approximated by postcode -> approximated by state).
 2. Augmentation process may take a considerable amount of time. Use the augmented datasets if you want to skip this part.
