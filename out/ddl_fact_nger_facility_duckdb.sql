@@ -1,7 +1,7 @@
 -- Recreate table with strict column order
 DROP TABLE IF EXISTS "public"."fact_nger_facility";
 CREATE TABLE "public"."fact_nger_facility" (
-    -- Keys (order matters)
+    -- Keys
     year                INTEGER      NOT NULL,
     geo_id              INTEGER      NOT NULL,   -- FK -> dim_geo(geo_id)
     corporation_id      INTEGER      NOT NULL,   -- FK -> dim_corporation(corporation_id)

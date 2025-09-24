@@ -1,4 +1,3 @@
-DROP TABLE IF EXISTS "public"."dim_geo";
 CREATE TABLE "public"."dim_geo" (
     geo_id           INTEGER  NOT NULL PRIMARY KEY,
     latitude         DOUBLE   NOT NULL,
@@ -12,6 +11,5 @@ CREATE TABLE "public"."dim_geo" (
     max_longitude    DOUBLE   NOT NULL,
     osm_type         TEXT     NOT NULL,
     geocoder         TEXT     NOT NULL,
-    geo_resolution   TEXT     NOT NULL,
-    search_text_used TEXT     NOT NULL
+    geo_resolution   TEXT     NOT NULL
 );
